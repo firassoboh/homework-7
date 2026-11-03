@@ -34,8 +34,8 @@
 ### Resulting Outcome
 Приложение полностью пропускает этап проверки пароля и предоставляет полный доступ к сеансу аутентификации в учётной записи пользователя Бендера — это демонстрирует полный сбой механизмов контроля аутентификации.
 -----------------------------------------------------------
-3.## 5. Vulnerability Name: Information Disclosure via UNION-Based SQL Injection (Database Schema)
-* **Severity:** High
+3.##Vulnerability Name: Information Disclosure via UNION-Based SQL Injection (Database Schema)
+
 * **OWASP Top 10 Category:** A03:2021-Injection
 
 ### Description
@@ -51,7 +51,7 @@ The application's product search functionality accepts user input via the `q` qu
 ### Resulting Outcome
 The application successfully executed the appended query against the internal SQLite metadata structure. As shown in the Burp Repeater analysis below, the server responded with an **HTTP/1.1 200 OK** and populated the `"data"` JSON array with the raw layout text definitions (`CREATE TABLE ...`) for internal objects like the Addresses and Users tables.
 
-![Burp Suite Successful SQL Injection Schema Dump](image_1teMAN.png)
+
 
 
 
